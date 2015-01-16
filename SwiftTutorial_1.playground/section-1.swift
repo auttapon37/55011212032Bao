@@ -58,3 +58,21 @@ var array2 = ["a", "b", "c"]
 for str in array2 {
     println(str)
 }
+
+var airport: [String: String] = ["TYO": "Tokyo", "DUB": "Dublin"]
+
+if airport.isEmpty {
+    println("The airport dictionary is empty.")
+} else {
+    println("The airports dictionary is not empty.")
+}
+
+println("The airports dictionary contains \(airport.count) items.")
+
+airport["LHR"] = "London"
+
+airport["LHR"] = "London Heathrow"
+
+if let oldValue = airport.updateValue("Dublin International",  forKey: "DUB") {
+    println("The old value for DUB was \(oldValue).")
+}
