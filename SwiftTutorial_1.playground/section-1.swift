@@ -30,9 +30,31 @@ shoppingListExplicit = ["Eggs", "Milk"]
 var shoppingList = ["Eggs", "Milk"]
 println("The shopping list contains \(shoppingList.count) item.")
 shoppingList.append("Flour")
-shoppingList += "Baking Powder"
+shoppingList += ["Baking Powder"]
 shoppingList += ["Chocolate Spread", "Cheese", "Butter"]
 var firstItem = shoppingList[0]
 shoppingList[0] = "Six eggs"
 //shoppingList[0...3] = ["Bananas", "Apples"]
 shoppingList
+
+if (onSaleInferred){
+    println("\(nameInferred) on sale for \(priceInferred)!")
+} else {
+    println("\(nameInferred) at regular price: \(priceInferred)!")
+}
+
+let possibleTipsInferred = [0.15, 0.18, 0.20]
+let possibleTipsExplicit:[Double] = [0.15, 0.18, 0.20]
+var numberOfItem = possibleTipsExplicit.count
+
+println("\(numberOfItem)")
+
+var array1 = ["abc", "bcd", "cdf"]
+for (var i=0; i < array1.count; i++){
+    println(array1[i])
+}
+
+var array2 = ["a", "b", "c"]
+for str in array2 {
+    println(str)
+}
