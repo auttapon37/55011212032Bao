@@ -21,3 +21,4 @@ class userPasswd {
 
 let start = userPasswd(user:"Bao")
 start.process()
+
