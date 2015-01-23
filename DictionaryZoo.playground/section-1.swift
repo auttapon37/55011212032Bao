@@ -18,6 +18,6 @@ class zoo {
         }
     }
 }
-
+/////////// Main /////////////
 let name=zoo()
 name.dic("bat")
