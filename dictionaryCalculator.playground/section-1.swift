@@ -43,7 +43,7 @@ class TipCalculator {
         //var numberOfItems = possibleTipsInferred.count
         
         //2
-        var retval = Dictionary<Int: Double>()
+        var retval = Dictionary<Int, Double>()
         for possibleTip in possibleTipsInferred {
             let intPct = Int(possibleTip*100)
             //3
