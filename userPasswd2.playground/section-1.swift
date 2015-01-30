@@ -33,7 +33,7 @@ class idpass {
     let Passchang:String
     
     
-    func update(Passchang:String,userchang:String) {
+    func update(Passchang:String,userchang:String) -> String {
         
         if let old = userpassword.updateValue(Passchang, forKey: userpassword){
         //if let oldvalue = userpassword.updateValue(Passchang, forKey:userchang){
@@ -47,7 +47,7 @@ class idpass {
       
         userpassword[userDel]=nil
     }
-    func ser(user:String){
+    func search(user:String){
         for(key,value) in userpassword{
             if(key==user){
                 println("Yes\(value)")
@@ -60,6 +60,6 @@ class idpass {
 }
 
 let start = idpass(user: "Bao",pass: "2032")
-//start.add("tttt",pass :"123456")
+start.add("tttt",pass :"123456")
 start.update("21555", userchang: "Bear")
-start.ser("Bao")
+start.search("Bao")
