@@ -14,7 +14,30 @@ class cal {
         mul=first*second
         div=first/second
     }
+    
+    
+    
+    func plus(first:Double,second:Double) -> String{
+        let plus="\(first) + \(second) = \(first+second) "
+        return plus
+    }
+    func minus(first:Double,second:Double) -> String{
+        let minus="\(first) - \(second) = \(first-second)"
+        return minus
+    }
+    func mul(first:Double,second:Double) -> String{
+        let mul="\(first) * \(second) = \(first*second)"
+        return mul
+    }
+    func div(first:Double,second:Double) -> String {
+        let div="\(first) / \(second) = \(first/second)"
+        return div
+    }
 }
 
 let process = cal()
-process.compute(125, second: 14)
+//process.compute(120, second: 14)
+process.plus(120, second: 10.5)
+process.minus(120, second: 10.2)
+process.mul(25.3, second: 126)
+process.div(25.3, second: 126)
