@@ -3,6 +3,15 @@
 import UIKit
 
 class cal {
+    
+    let first:Double
+    let second:Double
+    
+    init(first:Double,second:Double){
+        self.first=first
+        self.second=second
+    }
+    
     func compute(first:Int,second:Int) {
         var plus = 0
         var minus = 0
@@ -35,7 +44,7 @@ class cal {
     }
 }
 
-let process = cal()
+let process = cal(first:10, second:10)
 //process.compute(120, second: 14)
 process.plus(120, second: 10.5)
 process.minus(120, second: 10.2)

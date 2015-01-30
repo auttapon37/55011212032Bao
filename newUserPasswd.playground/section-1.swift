@@ -29,10 +29,10 @@ class userpassword {
         var result:String=""
         for (key,value) in userDB{
             if(key==user){
-                result="yes \(user) in database"
+                result="Yes, \(user) in database"
                 break
             }else{
-                result="No \(user) not in database"
+                result="No, \(user) not in database"
             }
         }
         return result
@@ -43,5 +43,6 @@ class userpassword {
 let process = userpassword(user: "aaa",pass: "bbb")
 process.add("ttt", pass: "yyy")
 process.update("ttt", pass: "zzz")
+process.search("ttt")
 process.del("ttt")
 process.search("ttt")
