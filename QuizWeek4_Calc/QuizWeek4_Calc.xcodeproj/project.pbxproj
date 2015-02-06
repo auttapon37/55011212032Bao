@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD6B62D31A84B93800CB2662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B62D21A84B93800CB2662 /* AppDelegate.swift */; };
+		FD6B62D51A84B93800CB2662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B62D41A84B93800CB2662 /* ViewController.swift */; };
+		FD6B62D81A84B93800CB2662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62D61A84B93800CB2662 /* Main.storyboard */; };
+		FD6B62DA1A84B93800CB2662 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62D91A84B93800CB2662 /* Images.xcassets */; };
+		FD6B62DD1A84B93800CB2662 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62DB1A84B93800CB2662 /* LaunchScreen.xib */; };
+		FD6B62E91A84B93800CB2662 /* QuizWeek4_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B62E81A84B93800CB2662 /* QuizWeek4_CalcTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD6B62E31A84B93800CB2662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6B62C51A84B93800CB2662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6B62CC1A84B93800CB2662;
+			remoteInfo = QuizWeek4_Calc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD6B62CD1A84B93800CB2662 /* QuizWeek4_Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizWeek4_Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6B62D11A84B93800CB2662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6B62D21A84B93800CB2662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD6B62D41A84B93800CB2662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD6B62D71A84B93800CB2662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD6B62D91A84B93800CB2662 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD6B62DC1A84B93800CB2662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD6B62E21A84B93800CB2662 /* QuizWeek4_CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizWeek4_CalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6B62E71A84B93800CB2662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6B62E81A84B93800CB2662 /* QuizWeek4_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWeek4_CalcTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6B62CA1A84B93800CB2662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B62DF1A84B93800CB2662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD6B62C41A84B93800CB2662 = {
+			isa = PBXGroup;
+			children = (
+				FD6B62CF1A84B93800CB2662 /* QuizWeek4_Calc */,
+				FD6B62E51A84B93800CB2662 /* QuizWeek4_CalcTests */,
+				FD6B62CE1A84B93800CB2662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6B62CE1A84B93800CB2662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B62CD1A84B93800CB2662 /* QuizWeek4_Calc.app */,
+				FD6B62E21A84B93800CB2662 /* QuizWeek4_CalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6B62CF1A84B93800CB2662 /* QuizWeek4_Calc */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B62D21A84B93800CB2662 /* AppDelegate.swift */,
+				FD6B62D41A84B93800CB2662 /* ViewController.swift */,
+				FD6B62D61A84B93800CB2662 /* Main.storyboard */,
+				FD6B62D91A84B93800CB2662 /* Images.xcassets */,
+				FD6B62DB1A84B93800CB2662 /* LaunchScreen.xib */,
+				FD6B62D01A84B93800CB2662 /* Supporting Files */,
+			);
+			path = QuizWeek4_Calc;
+			sourceTree = "<group>";
+		};
+		FD6B62D01A84B93800CB2662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B62D11A84B93800CB2662 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6B62E51A84B93800CB2662 /* QuizWeek4_CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B62E81A84B93800CB2662 /* QuizWeek4_CalcTests.swift */,
+				FD6B62E61A84B93800CB2662 /* Supporting Files */,
+			);
+			path = QuizWeek4_CalcTests;
+			sourceTree = "<group>";
+		};
+		FD6B62E61A84B93800CB2662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B62E71A84B93800CB2662 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD6B62CC1A84B93800CB2662 /* QuizWeek4_Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6B62EC1A84B93800CB2662 /* Build configuration list for PBXNativeTarget "QuizWeek4_Calc" */;
+			buildPhases = (
+				FD6B62C91A84B93800CB2662 /* Sources */,
+				FD6B62CA1A84B93800CB2662 /* Frameworks */,
+				FD6B62CB1A84B93800CB2662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizWeek4_Calc;
+			productName = QuizWeek4_Calc;
+			productReference = FD6B62CD1A84B93800CB2662 /* QuizWeek4_Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD6B62E11A84B93800CB2662 /* QuizWeek4_CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6B62EF1A84B93800CB2662 /* Build configuration list for PBXNativeTarget "QuizWeek4_CalcTests" */;
+			buildPhases = (
+				FD6B62DE1A84B93800CB2662 /* Sources */,
+				FD6B62DF1A84B93800CB2662 /* Frameworks */,
+				FD6B62E01A84B93800CB2662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6B62E41A84B93800CB2662 /* PBXTargetDependency */,
+			);
+			name = QuizWeek4_CalcTests;
+			productName = QuizWeek4_CalcTests;
+			productReference = FD6B62E21A84B93800CB2662 /* QuizWeek4_CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6B62C51A84B93800CB2662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD6B62CC1A84B93800CB2662 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD6B62E11A84B93800CB2662 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD6B62CC1A84B93800CB2662;
+					};
+				};
+			};
+			buildConfigurationList = FD6B62C81A84B93800CB2662 /* Build configuration list for PBXProject "QuizWeek4_Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD6B62C41A84B93800CB2662;
+			productRefGroup = FD6B62CE1A84B93800CB2662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6B62CC1A84B93800CB2662 /* QuizWeek4_Calc */,
+				FD6B62E11A84B93800CB2662 /* QuizWeek4_CalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD6B62CB1A84B93800CB2662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B62D81A84B93800CB2662 /* Main.storyboard in Resources */,
+				FD6B62DD1A84B93800CB2662 /* LaunchScreen.xib in Resources */,
+				FD6B62DA1A84B93800CB2662 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B62E01A84B93800CB2662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD6B62C91A84B93800CB2662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B62D51A84B93800CB2662 /* ViewController.swift in Sources */,
+				FD6B62D31A84B93800CB2662 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B62DE1A84B93800CB2662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B62E91A84B93800CB2662 /* QuizWeek4_CalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD6B62E41A84B93800CB2662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6B62CC1A84B93800CB2662 /* QuizWeek4_Calc */;
+			targetProxy = FD6B62E31A84B93800CB2662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD6B62D61A84B93800CB2662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6B62D71A84B93800CB2662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD6B62DB1A84B93800CB2662 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6B62DC1A84B93800CB2662 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD6B62EA1A84B93800CB2662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD6B62EB1A84B93800CB2662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD6B62ED1A84B93800CB2662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuizWeek4_Calc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD6B62EE1A84B93800CB2662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuizWeek4_Calc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD6B62F01A84B93800CB2662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuizWeek4_CalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizWeek4_Calc.app/QuizWeek4_Calc";
+			};
+			name = Debug;
+		};
+		FD6B62F11A84B93800CB2662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuizWeek4_CalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizWeek4_Calc.app/QuizWeek4_Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD6B62C81A84B93800CB2662 /* Build configuration list for PBXProject "QuizWeek4_Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B62EA1A84B93800CB2662 /* Debug */,
+				FD6B62EB1A84B93800CB2662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6B62EC1A84B93800CB2662 /* Build configuration list for PBXNativeTarget "QuizWeek4_Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B62ED1A84B93800CB2662 /* Debug */,
+				FD6B62EE1A84B93800CB2662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD6B62EF1A84B93800CB2662 /* Build configuration list for PBXNativeTarget "QuizWeek4_CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B62F01A84B93800CB2662 /* Debug */,
+				FD6B62F11A84B93800CB2662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD6B62C51A84B93800CB2662 /* Project object */;
+}
