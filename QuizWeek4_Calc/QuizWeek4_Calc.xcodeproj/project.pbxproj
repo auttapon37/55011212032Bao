@@ -13,6 +13,12 @@
 		FD6B62DA1A84B93800CB2662 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62D91A84B93800CB2662 /* Images.xcassets */; };
 		FD6B62DD1A84B93800CB2662 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62DB1A84B93800CB2662 /* LaunchScreen.xib */; };
 		FD6B62E91A84B93800CB2662 /* QuizWeek4_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B62E81A84B93800CB2662 /* QuizWeek4_CalcTests.swift */; };
+		FD6B62F31A84C48C00CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62F21A84C48C00CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg */; };
+		FD6B62F51A84C55100CB2662 /* mzl.ghutmzsp.512x512-75-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62F41A84C55100CB2662 /* mzl.ghutmzsp.512x512-75-2.png */; };
+		FD6B62F71A84C96E00CB2662 /* button-reset-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62F61A84C96E00CB2662 /* button-reset-hi.png */; };
+		FD6B62F91A84CA7000CB2662 /* Number-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62F81A84CA7000CB2662 /* Number-2-icon.png */; };
+		FD6B62FB1A84CA7B00CB2662 /* Red Number Three-256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62FA1A84CA7B00CB2662 /* Red Number Three-256x256.png */; };
+		FD6B62FD1A84CAA700CB2662 /* Red Number One-256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62FC1A84CAA700CB2662 /* Red Number One-256x256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		FD6B62E21A84B93800CB2662 /* QuizWeek4_CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizWeek4_CalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6B62E71A84B93800CB2662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD6B62E81A84B93800CB2662 /* QuizWeek4_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWeek4_CalcTests.swift; sourceTree = "<group>"; };
+		FD6B62F21A84C48C00CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg"; sourceTree = "<group>"; };
+		FD6B62F41A84C55100CB2662 /* mzl.ghutmzsp.512x512-75-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mzl.ghutmzsp.512x512-75-2.png"; sourceTree = "<group>"; };
+		FD6B62F61A84C96E00CB2662 /* button-reset-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-reset-hi.png"; sourceTree = "<group>"; };
+		FD6B62F81A84CA7000CB2662 /* Number-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number-2-icon.png"; sourceTree = "<group>"; };
+		FD6B62FA1A84CA7B00CB2662 /* Red Number Three-256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Number Three-256x256.png"; sourceTree = "<group>"; };
+		FD6B62FC1A84CAA700CB2662 /* Red Number One-256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Number One-256x256.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,12 @@
 		FD6B62D01A84B93800CB2662 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD6B62FC1A84CAA700CB2662 /* Red Number One-256x256.png */,
+				FD6B62FA1A84CA7B00CB2662 /* Red Number Three-256x256.png */,
+				FD6B62F81A84CA7000CB2662 /* Number-2-icon.png */,
+				FD6B62F61A84C96E00CB2662 /* button-reset-hi.png */,
+				FD6B62F41A84C55100CB2662 /* mzl.ghutmzsp.512x512-75-2.png */,
+				FD6B62F21A84C48C00CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg */,
 				FD6B62D11A84B93800CB2662 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +210,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6B62F91A84CA7000CB2662 /* Number-2-icon.png in Resources */,
 				FD6B62D81A84B93800CB2662 /* Main.storyboard in Resources */,
+				FD6B62FB1A84CA7B00CB2662 /* Red Number Three-256x256.png in Resources */,
+				FD6B62F51A84C55100CB2662 /* mzl.ghutmzsp.512x512-75-2.png in Resources */,
+				FD6B62F71A84C96E00CB2662 /* button-reset-hi.png in Resources */,
+				FD6B62F31A84C48C00CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg in Resources */,
+				FD6B62FD1A84CAA700CB2662 /* Red Number One-256x256.png in Resources */,
 				FD6B62DD1A84B93800CB2662 /* LaunchScreen.xib in Resources */,
 				FD6B62DA1A84B93800CB2662 /* Images.xcassets in Resources */,
 			);

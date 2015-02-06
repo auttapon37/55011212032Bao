@@ -61,6 +61,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Ub-tm-JHT">
+                                <rect key="frame" x="67" y="388" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -86,4 +89,7 @@
             <point key="canvasLocation" x="969.5" y="461.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg" width="4608" height="3456"/>
+    </resources>
 </document>
