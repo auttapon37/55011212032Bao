@@ -19,6 +19,7 @@
 		FD6B62F91A84CA7000CB2662 /* Number-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62F81A84CA7000CB2662 /* Number-2-icon.png */; };
 		FD6B62FB1A84CA7B00CB2662 /* Red Number Three-256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62FA1A84CA7B00CB2662 /* Red Number Three-256x256.png */; };
 		FD6B62FD1A84CAA700CB2662 /* Red Number One-256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62FC1A84CAA700CB2662 /* Red Number One-256x256.png */; };
+		FD6B62FF1A84CDEB00CB2662 /* iPhone-5-Default-Dynamic-Wallpaper-Color_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62FE1A84CDEB00CB2662 /* iPhone-5-Default-Dynamic-Wallpaper-Color_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FD6B62F81A84CA7000CB2662 /* Number-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number-2-icon.png"; sourceTree = "<group>"; };
 		FD6B62FA1A84CA7B00CB2662 /* Red Number Three-256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Number Three-256x256.png"; sourceTree = "<group>"; };
 		FD6B62FC1A84CAA700CB2662 /* Red Number One-256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Number One-256x256.png"; sourceTree = "<group>"; };
+		FD6B62FE1A84CDEB00CB2662 /* iPhone-5-Default-Dynamic-Wallpaper-Color_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iPhone-5-Default-Dynamic-Wallpaper-Color_1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		FD6B62D01A84B93800CB2662 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD6B62FE1A84CDEB00CB2662 /* iPhone-5-Default-Dynamic-Wallpaper-Color_1.jpg */,
 				FD6B62FC1A84CAA700CB2662 /* Red Number One-256x256.png */,
 				FD6B62FA1A84CA7B00CB2662 /* Red Number Three-256x256.png */,
 				FD6B62F81A84CA7000CB2662 /* Number-2-icon.png */,
@@ -219,6 +222,7 @@
 				FD6B62FD1A84CAA700CB2662 /* Red Number One-256x256.png in Resources */,
 				FD6B62DD1A84B93800CB2662 /* LaunchScreen.xib in Resources */,
 				FD6B62DA1A84B93800CB2662 /* Images.xcassets in Resources */,
+				FD6B62FF1A84CDEB00CB2662 /* iPhone-5-Default-Dynamic-Wallpaper-Color_1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

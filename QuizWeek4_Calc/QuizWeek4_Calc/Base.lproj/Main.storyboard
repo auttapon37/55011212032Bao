@@ -12,7 +12,7 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" alpha="0.94999999999999996" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -68,6 +68,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mzl.ghutmzsp.512x512-75-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="oVD-RL-mjT">
                                 <rect key="frame" x="6" y="28" width="47" height="44"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone-5-Default-Dynamic-Wallpaper-Color_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2Zc-VP-i0h">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze0-G7-7BC">
                                 <rect key="frame" x="243" y="91" width="77" height="59"/>
                                 <state key="normal" title="three" image="Red Number Three-256x256.png">
@@ -97,6 +100,7 @@
         <image name="Red Number One-256x256.png" width="256" height="256"/>
         <image name="Red Number Three-256x256.png" width="256" height="256"/>
         <image name="button-reset-hi.png" width="600" height="208"/>
+        <image name="iPhone-5-Default-Dynamic-Wallpaper-Color_1.jpg" width="640" height="1136"/>
         <image name="mzl.ghutmzsp.512x512-75-2.png" width="512" height="512"/>
     </resources>
 </document>
