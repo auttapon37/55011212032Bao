@@ -46,7 +46,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
         }
         
     }
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: NSDictionary!) {
         self.dismissViewControllerAnimated(true, completion: nil);
         let gotImage = info[UIImagePickerControllerOriginalImage] as UIImage
         beginImage = CIImage(image: gotImage)
@@ -76,7 +76,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
         let vignette = CIFilter(name: "CIVignette")
         vignette.setValue(composite.outputImage, forKey: kCIInputImageKey)
         vignette.setValue(intensity * 2, forKey: "inputIntensity")
-        vignette.setValue(intensity * 30, forKey: "inputRadias")
+        vignette.setValue(intensity * 30, forKey: "inputRadius")
         //7
         return vignette.outputImage
     }
@@ -91,7 +91,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //1
-        let fileURL = NSBundle.mainBundle().URLForResource("image", withExtension: "jpg")
+        let fileURL = NSBundle.mainBundle().URLForResource("image", withExtension: "png")
         //2
         beginImage = CIImage(contentsOfURL: fileURL)
         //3
