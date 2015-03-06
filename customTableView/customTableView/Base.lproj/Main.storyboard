@@ -55,7 +55,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
-                                <navigationItem title="Title" id="kyO-gh-ejF">
+                                <navigationItem title="สาขา" id="kyO-gh-ejF">
                                     <barButtonItem key="leftBarButtonItem" title="Back" id="aOU-wd-2Kb">
                                         <connections>
                                             <segue destination="y4P-ty-Nta" kind="show" id="ksk-zI-zpP"/>
