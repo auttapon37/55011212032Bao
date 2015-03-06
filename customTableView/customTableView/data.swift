@@ -12,16 +12,18 @@ class data: NSObject {
     func getData() -> Array<balloon> {
         var tempArray = Array<balloon>()
         
-        let b1 = balloon(bImage: UIImage(named: "balloon1.png"), bName: "balloon1" )
+        let b1 = balloon(bImage: UIImage(named: "doc.JPG"), bName: "สาขาวิทยาการคอมพิวเตอร์" )
         tempArray.append(b1)
-        let b2 = balloon(bImage: UIImage(named: "balloon2.png"), bName: "balloon2" )
+        let b2 = balloon(bImage: UIImage(named: "it.jpg"), bName: "สาขานิเทศศาสตร์" )
         tempArray.append(b2)
-        let b3 = balloon(bImage: UIImage(named: "balloon3.png"), bName: "balloon3" )
+        let b3 = balloon(bImage: UIImage(named: "balloon3.png"), bName: "สาขาคอมพิวเตอร์อนิเมชั่นและเกมส์" )
         tempArray.append(b3)
-        let b4 = balloon(bImage: UIImage(named: "balloon4.png"), bName: "balloon4" )
+        let b4 = balloon(bImage: UIImage(named: "balloon4.png"), bName: "สาขาภูมิสารสนเทศศาสตร์" )
         tempArray.append(b4)
-        let b5 = balloon(bImage: UIImage(named: "balloon5.png"), bName: "balloon5" )
+        let b5 = balloon(bImage: UIImage(named: "balloon5.png"), bName: "สาขาสารสนเทศศาสตร์" )
         tempArray.append(b5)
+        let b6 = balloon(bImage: UIImage(named: "balloon5.png"), bName: "สาขาเทคโนโลยีสารสนเทศและการสื่อสาร" )
+        tempArray.append(b6)
         return tempArray
     }
 }

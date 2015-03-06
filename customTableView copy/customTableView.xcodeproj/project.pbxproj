@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD4BD0FA1AA981DA00C706F6 /* doc.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD0F91AA981DA00C706F6 /* doc.JPG */; };
-		FD4BD13E1AA9B25A00C706F6 /* maxresdefault-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD13D1AA9B25A00C706F6 /* maxresdefault-2.jpg */; };
 		FD555DE41AA04E110098B290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD555DE31AA04E110098B290 /* AppDelegate.swift */; };
 		FD555DE91AA04E110098B290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD555DE71AA04E110098B290 /* Main.storyboard */; };
 		FD555DEB1AA04E110098B290 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD555DEA1AA04E110098B290 /* Images.xcassets */; };
@@ -37,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD4BD0F91AA981DA00C706F6 /* doc.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doc.JPG; sourceTree = "<group>"; };
-		FD4BD13D1AA9B25A00C706F6 /* maxresdefault-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maxresdefault-2.jpg"; sourceTree = "<group>"; };
 		FD555DDE1AA04E110098B290 /* customTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD555DE21AA04E110098B290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD555DE31AA04E110098B290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,8 +112,6 @@
 		FD555DE11AA04E110098B290 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD4BD13D1AA9B25A00C706F6 /* maxresdefault-2.jpg */,
-				FD4BD0F91AA981DA00C706F6 /* doc.JPG */,
 				FD555E191AA074BF0098B290 /* balloon5.png */,
 				FD555E171AA0747B0098B290 /* balloon4.png */,
 				FD555E151AA074290098B290 /* balloon3.png */,
@@ -232,8 +226,6 @@
 				FD555DEE1AA04E110098B290 /* LaunchScreen.xib in Resources */,
 				FD555E1A1AA074BF0098B290 /* balloon5.png in Resources */,
 				FD555DEB1AA04E110098B290 /* Images.xcassets in Resources */,
-				FD4BD0FA1AA981DA00C706F6 /* doc.JPG in Resources */,
-				FD4BD13E1AA9B25A00C706F6 /* maxresdefault-2.jpg in Resources */,
 				FD555E161AA074290098B290 /* balloon3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +441,6 @@
 				FD555DFF1AA04E110098B290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		FD555E001AA04E110098B290 /* Build configuration list for PBXNativeTarget "customTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -458,7 +449,6 @@
 				FD555E021AA04E110098B290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

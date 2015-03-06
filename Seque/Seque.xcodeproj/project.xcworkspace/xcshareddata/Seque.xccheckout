@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E1905DD6-4ADA-465F-9D47-1AD59606A761</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Seque</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>478326AF6ED216D6F96BD4C75E29FEBC0B56027B</key>
+		<string>https://github.com/auttapon37/55011212032Bao.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Seque/Seque.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>478326AF6ED216D6F96BD4C75E29FEBC0B56027B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/auttapon37/55011212032Bao.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>478326AF6ED216D6F96BD4C75E29FEBC0B56027B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>478326AF6ED216D6F96BD4C75E29FEBC0B56027B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>55011212032Bao</string>
+		</dict>
+	</array>
+</dict>
+</plist>

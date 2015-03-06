@@ -1,48 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y4P-ty-Nta">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f7Z-Dh-BU7">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="pD7-b6-vEC">
-            <objects>
-                <viewController id="y4P-ty-Nta" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="wOf-3d-G22"/>
-                        <viewControllerLayoutGuide type="bottom" id="uNq-Fe-SGf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7Aj-Tr-0yr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7a-SN-YkM">
-                                <rect key="frame" x="119" y="322" width="137" height="30"/>
-                                <state key="normal" title="เข้าสู่หน้าหลัก">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="f7Z-Dh-BU7" kind="modal" id="KbT-Pw-bT6"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maxresdefault-2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tLr-bu-F6X">
-                                <rect key="frame" x="26" y="90" width="323" height="198"/>
-                            </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H4X-iA-Et1">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="คณะวิทยาการสารสนเทศ" id="Bcw-bL-8gh"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FRX-FV-Hv0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1199.5" y="290.5"/>
-        </scene>
         <!--Table View Controller-->
         <scene sceneID="MFf-Mf-H0l">
             <objects>
@@ -51,19 +12,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <navigationBar key="tableFooterView" contentMode="scaleToFill" id="NL5-E5-v6C">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <items>
-                                <navigationItem title="Title" id="kyO-gh-ejF">
-                                    <barButtonItem key="leftBarButtonItem" title="Back" id="aOU-wd-2Kb">
-                                        <connections>
-                                            <segue destination="y4P-ty-Nta" kind="show" id="ksk-zI-zpP"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </navigationItem>
-                            </items>
-                        </navigationBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="2y8-Nr-Bil" customClass="TableViewCell" customModule="customTableView" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -114,7 +62,4 @@
             <point key="canvasLocation" x="219.5" y="428.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="maxresdefault-2.jpg" width="1920" height="1080"/>
-    </resources>
 </document>

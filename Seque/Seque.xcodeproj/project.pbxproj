@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4BD10A1AA9833700C706F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BD1091AA9833700C706F6 /* AppDelegate.swift */; };
+		FD4BD10C1AA9833700C706F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BD10B1AA9833700C706F6 /* ViewController.swift */; };
+		FD4BD10F1AA9833700C706F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD10D1AA9833700C706F6 /* Main.storyboard */; };
+		FD4BD1111AA9833700C706F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD1101AA9833700C706F6 /* Images.xcassets */; };
+		FD4BD1141AA9833700C706F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD1121AA9833700C706F6 /* LaunchScreen.xib */; };
+		FD4BD1201AA9833700C706F6 /* SequeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BD11F1AA9833700C706F6 /* SequeTests.swift */; };
+		FD4BD12C1AA98AC500C706F6 /* ColorTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BD12B1AA98AC500C706F6 /* ColorTwoViewController.swift */; };
+		FD4BD12E1AA99A4F00C706F6 /* msu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD12D1AA99A4F00C706F6 /* msu.jpg */; };
+		FD4BD1301AA9A5B400C706F6 /* it.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD12F1AA9A5B400C706F6 /* it.jpg */; };
+		FD4BD1321AA9A68C00C706F6 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BD1311AA9A68C00C706F6 /* data.swift */; };
+		FD4BD1341AA9A7C400C706F6 /* kids-wallpaper2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD1331AA9A7C400C706F6 /* kids-wallpaper2.jpg */; };
+		FD4BD1361AA9A86000C706F6 /* Vector-Kids-Background-Images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD1351AA9A86000C706F6 /* Vector-Kids-Background-Images.jpg */; };
+		FD4BD1381AA9AAF700C706F6 /* cs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD1371AA9AAF700C706F6 /* cs.jpg */; };
+		FD4BD13A1AA9ABF400C706F6 /* it2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD1391AA9ABF400C706F6 /* it2.jpg */; };
+		FD4BD13C1AA9ADB000C706F6 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4BD13B1AA9ADB000C706F6 /* background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD4BD11A1AA9833700C706F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4BD0FC1AA9833700C706F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4BD1031AA9833700C706F6;
+			remoteInfo = Seque;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD4BD1041AA9833700C706F6 /* Seque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seque.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4BD1081AA9833700C706F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4BD1091AA9833700C706F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD4BD10B1AA9833700C706F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD4BD10E1AA9833700C706F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD4BD1101AA9833700C706F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD4BD1131AA9833700C706F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD4BD1191AA9833700C706F6 /* SequeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4BD11E1AA9833700C706F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4BD11F1AA9833700C706F6 /* SequeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequeTests.swift; sourceTree = "<group>"; };
+		FD4BD12B1AA98AC500C706F6 /* ColorTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTwoViewController.swift; sourceTree = "<group>"; };
+		FD4BD12D1AA99A4F00C706F6 /* msu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = msu.jpg; sourceTree = "<group>"; };
+		FD4BD12F1AA9A5B400C706F6 /* it.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = it.jpg; sourceTree = "<group>"; };
+		FD4BD1311AA9A68C00C706F6 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		FD4BD1331AA9A7C400C706F6 /* kids-wallpaper2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kids-wallpaper2.jpg"; sourceTree = "<group>"; };
+		FD4BD1351AA9A86000C706F6 /* Vector-Kids-Background-Images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vector-Kids-Background-Images.jpg"; sourceTree = "<group>"; };
+		FD4BD1371AA9AAF700C706F6 /* cs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cs.jpg; sourceTree = "<group>"; };
+		FD4BD1391AA9ABF400C706F6 /* it2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = it2.jpg; sourceTree = "<group>"; };
+		FD4BD13B1AA9ADB000C706F6 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD4BD1011AA9833700C706F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4BD1161AA9833700C706F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD4BD0FB1AA9833700C706F6 = {
+			isa = PBXGroup;
+			children = (
+				FD4BD1061AA9833700C706F6 /* Seque */,
+				FD4BD11C1AA9833700C706F6 /* SequeTests */,
+				FD4BD1051AA9833700C706F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD4BD1051AA9833700C706F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BD1041AA9833700C706F6 /* Seque.app */,
+				FD4BD1191AA9833700C706F6 /* SequeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD4BD1061AA9833700C706F6 /* Seque */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BD1091AA9833700C706F6 /* AppDelegate.swift */,
+				FD4BD10B1AA9833700C706F6 /* ViewController.swift */,
+				FD4BD10D1AA9833700C706F6 /* Main.storyboard */,
+				FD4BD1311AA9A68C00C706F6 /* data.swift */,
+				FD4BD12B1AA98AC500C706F6 /* ColorTwoViewController.swift */,
+				FD4BD1101AA9833700C706F6 /* Images.xcassets */,
+				FD4BD1121AA9833700C706F6 /* LaunchScreen.xib */,
+				FD4BD1071AA9833700C706F6 /* Supporting Files */,
+			);
+			path = Seque;
+			sourceTree = "<group>";
+		};
+		FD4BD1071AA9833700C706F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BD13B1AA9ADB000C706F6 /* background.jpg */,
+				FD4BD1391AA9ABF400C706F6 /* it2.jpg */,
+				FD4BD1371AA9AAF700C706F6 /* cs.jpg */,
+				FD4BD1351AA9A86000C706F6 /* Vector-Kids-Background-Images.jpg */,
+				FD4BD1331AA9A7C400C706F6 /* kids-wallpaper2.jpg */,
+				FD4BD12F1AA9A5B400C706F6 /* it.jpg */,
+				FD4BD12D1AA99A4F00C706F6 /* msu.jpg */,
+				FD4BD1081AA9833700C706F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD4BD11C1AA9833700C706F6 /* SequeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BD11F1AA9833700C706F6 /* SequeTests.swift */,
+				FD4BD11D1AA9833700C706F6 /* Supporting Files */,
+			);
+			path = SequeTests;
+			sourceTree = "<group>";
+		};
+		FD4BD11D1AA9833700C706F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BD11E1AA9833700C706F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD4BD1031AA9833700C706F6 /* Seque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4BD1231AA9833700C706F6 /* Build configuration list for PBXNativeTarget "Seque" */;
+			buildPhases = (
+				FD4BD1001AA9833700C706F6 /* Sources */,
+				FD4BD1011AA9833700C706F6 /* Frameworks */,
+				FD4BD1021AA9833700C706F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seque;
+			productName = Seque;
+			productReference = FD4BD1041AA9833700C706F6 /* Seque.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD4BD1181AA9833700C706F6 /* SequeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4BD1261AA9833700C706F6 /* Build configuration list for PBXNativeTarget "SequeTests" */;
+			buildPhases = (
+				FD4BD1151AA9833700C706F6 /* Sources */,
+				FD4BD1161AA9833700C706F6 /* Frameworks */,
+				FD4BD1171AA9833700C706F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4BD11B1AA9833700C706F6 /* PBXTargetDependency */,
+			);
+			name = SequeTests;
+			productName = SequeTests;
+			productReference = FD4BD1191AA9833700C706F6 /* SequeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD4BD0FC1AA9833700C706F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD4BD1031AA9833700C706F6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD4BD1181AA9833700C706F6 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD4BD1031AA9833700C706F6;
+					};
+				};
+			};
+			buildConfigurationList = FD4BD0FF1AA9833700C706F6 /* Build configuration list for PBXProject "Seque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD4BD0FB1AA9833700C706F6;
+			productRefGroup = FD4BD1051AA9833700C706F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4BD1031AA9833700C706F6 /* Seque */,
+				FD4BD1181AA9833700C706F6 /* SequeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD4BD1021AA9833700C706F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4BD10F1AA9833700C706F6 /* Main.storyboard in Resources */,
+				FD4BD13C1AA9ADB000C706F6 /* background.jpg in Resources */,
+				FD4BD1141AA9833700C706F6 /* LaunchScreen.xib in Resources */,
+				FD4BD13A1AA9ABF400C706F6 /* it2.jpg in Resources */,
+				FD4BD1301AA9A5B400C706F6 /* it.jpg in Resources */,
+				FD4BD12E1AA99A4F00C706F6 /* msu.jpg in Resources */,
+				FD4BD1341AA9A7C400C706F6 /* kids-wallpaper2.jpg in Resources */,
+				FD4BD1111AA9833700C706F6 /* Images.xcassets in Resources */,
+				FD4BD1361AA9A86000C706F6 /* Vector-Kids-Background-Images.jpg in Resources */,
+				FD4BD1381AA9AAF700C706F6 /* cs.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4BD1171AA9833700C706F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD4BD1001AA9833700C706F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4BD10C1AA9833700C706F6 /* ViewController.swift in Sources */,
+				FD4BD10A1AA9833700C706F6 /* AppDelegate.swift in Sources */,
+				FD4BD12C1AA98AC500C706F6 /* ColorTwoViewController.swift in Sources */,
+				FD4BD1321AA9A68C00C706F6 /* data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4BD1151AA9833700C706F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4BD1201AA9833700C706F6 /* SequeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD4BD11B1AA9833700C706F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4BD1031AA9833700C706F6 /* Seque */;
+			targetProxy = FD4BD11A1AA9833700C706F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD4BD10D1AA9833700C706F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4BD10E1AA9833700C706F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD4BD1121AA9833700C706F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4BD1131AA9833700C706F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD4BD1211AA9833700C706F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD4BD1221AA9833700C706F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD4BD1241AA9833700C706F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Seque/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD4BD1251AA9833700C706F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Seque/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD4BD1271AA9833700C706F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SequeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seque.app/Seque";
+			};
+			name = Debug;
+		};
+		FD4BD1281AA9833700C706F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SequeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seque.app/Seque";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD4BD0FF1AA9833700C706F6 /* Build configuration list for PBXProject "Seque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4BD1211AA9833700C706F6 /* Debug */,
+				FD4BD1221AA9833700C706F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4BD1231AA9833700C706F6 /* Build configuration list for PBXNativeTarget "Seque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4BD1241AA9833700C706F6 /* Debug */,
+				FD4BD1251AA9833700C706F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD4BD1261AA9833700C706F6 /* Build configuration list for PBXNativeTarget "SequeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4BD1271AA9833700C706F6 /* Debug */,
+				FD4BD1281AA9833700C706F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD4BD0FC1AA9833700C706F6 /* Project object */;
+}
