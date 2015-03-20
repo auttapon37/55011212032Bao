@@ -15,6 +15,7 @@
 		FD6B62B71A84960E00CB2662 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B62B61A84960E00CB2662 /* TipCalculatorTests.swift */; };
 		FD6B62C11A84A81C00CB2662 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6B62C01A84A81C00CB2662 /* TipCalculatorModel.swift */; };
 		FD6B62C31A84B73600CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD6B62C21A84B73600CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg */; };
+		FDC72DBE1AB9583900938B48 /* 440x105_calculator_button_9.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC72DBD1AB9583900938B48 /* 440x105_calculator_button_9.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FD6B62B61A84960E00CB2662 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
 		FD6B62C01A84A81C00CB2662 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 		FD6B62C21A84B73600CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg"; sourceTree = "<group>"; };
+		FDC72DBD1AB9583900938B48 /* 440x105_calculator_button_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 440x105_calculator_button_9.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		FD6B629E1A84960E00CB2662 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDC72DBD1AB9583900938B48 /* 440x105_calculator_button_9.png */,
 				FD6B62C21A84B73600CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg */,
 				FD6B629F1A84960E00CB2662 /* Info.plist */,
 			);
@@ -201,6 +204,7 @@
 				FD6B62A61A84960E00CB2662 /* Main.storyboard in Resources */,
 				FD6B62C31A84B73600CB2662 /* blue_sky__open_minded__by_codyawilliams-d4evx1b.jpg in Resources */,
 				FD6B62AB1A84960E00CB2662 /* LaunchScreen.xib in Resources */,
+				FDC72DBE1AB9583900938B48 /* 440x105_calculator_button_9.png in Resources */,
 				FD6B62A81A84960E00CB2662 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

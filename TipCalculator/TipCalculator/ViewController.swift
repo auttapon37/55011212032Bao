@@ -64,8 +64,8 @@ class ViewController: UIViewController,UITableViewDelegate {
         totalTextField.text = String(format: "%0.2f", tipCalc.total)
         taxPctSlider.value = Float(tipCalc.taxPct) * 100.0
         taxPctLabel.text = "Tex Percentage (\(Int(taxPctSlider.value)))"
-
     }*/
+    
     
     
     @IBOutlet weak var tableview: UITableView!
@@ -76,7 +76,10 @@ class ViewController: UIViewController,UITableViewDelegate {
     @IBOutlet weak var resultsTextView: UITextView!
     @IBAction func CalculatorTapped(sender: AnyObject) {
         tipCalc.total = Double((totalTextField.text as NSString).doubleValue)
+        //possibleTips = tipCalc.returnPossibleTips()
         possibleTips = tipCalc.returnPossibleTips()
+        
+        
         sortedKeys = sorted(Array(possibleTips.keys))
         tableview.reloadData()
     }
@@ -88,6 +91,11 @@ class ViewController: UIViewController,UITableViewDelegate {
     
     @IBAction func viewTapped(sender: AnyObject) {
         totalTextField.resignFirstResponder()
+    }
+    func refreshUI() {
+        totalTextField.text = String(format: "%0.2f", tipCalc.total)
+        taxPctSlider.value = Float(tipCalc.taxPct) * 100.0
+        taxPctLabel.text = "Tex Percentage (\(Int(taxPctSlider.value)))"
     }
     
     

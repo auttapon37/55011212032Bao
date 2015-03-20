@@ -38,11 +38,15 @@ class TipCalculatorModel {
         
         //2
         var retval = Dictionary<Int,(tipAmt:Double, total:Double)>()
+        var numberOfItem = possibleTipsInferred.count
+        
         for possibleTip in possibleTipsInferred {
             let intPct = Int(possibleTip*100)
             //3
+            //retval[intPct] = calcTipWithTipPct(possibleTip)
             retval[intPct] = calcTipWithTipPct(possibleTip)
         }
+        
         return retval
     }
 }
