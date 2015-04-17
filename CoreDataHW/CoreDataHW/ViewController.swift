@@ -62,6 +62,22 @@ class ViewController: UIViewController {
         cell.textLabel!.text = item.valueForKey("name") as String?
         return cell
     }
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if editingStyle == UITableViewCellEditingStyle.Delete {
+            // remove the deleted item from the model
+            let appDel:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+            let context:NSManagedObjectContext = appDel.managedObjectContext!
+            context.deleteObject(items[indexPath.row] as NSManagedObject)
+            items.removeAtIndex(indexPath.row)
+            
+            context.save(nil)
+            
+            //tableView.reloadData()
+            // remove the deleted item from the `UITableView`
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+            
+        }
+    }
 
     func saveName(name: String){
         //1
