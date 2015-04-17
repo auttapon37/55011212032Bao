@@ -82,7 +82,8 @@ class ViewController: UIViewController {
         // we want the blue square to have the same position as redSquare
         // so lets just reuse blueSquare.frame
         self.redSquare.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
-        self.blueSquare.frame = redSquare.frame
+        //self.blueSquare.frame = redSquare.frame
+        self.blueSquare.frame = CGRect(x: 0, y: 0, width: 150, height: 150)
         
         // set background colors
         self.redSquare.backgroundColor = UIColor.redColor()

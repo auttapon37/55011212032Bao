@@ -13,6 +13,7 @@
 		FD685AFE1AE0E080001DEA7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD685AFD1AE0E080001DEA7D /* Images.xcassets */; };
 		FD685B011AE0E080001DEA7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD685AFF1AE0E080001DEA7D /* LaunchScreen.xib */; };
 		FD685B0D1AE0E080001DEA7D /* UIImagePikerControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD685B0C1AE0E080001DEA7D /* UIImagePikerControllerTests.swift */; };
+		FD685B171AE0FF5B001DEA7D /* apples2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD685B161AE0FF5B001DEA7D /* apples2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FD685B061AE0E080001DEA7D /* UIImagePikerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePikerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD685B0B1AE0E080001DEA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD685B0C1AE0E080001DEA7D /* UIImagePikerControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePikerControllerTests.swift; sourceTree = "<group>"; };
+		FD685B161AE0FF5B001DEA7D /* apples2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apples2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		FD685AF41AE0E080001DEA7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD685B161AE0FF5B001DEA7D /* apples2.jpg */,
 				FD685AF51AE0E080001DEA7D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD685AFC1AE0E080001DEA7D /* Main.storyboard in Resources */,
+				FD685B171AE0FF5B001DEA7D /* apples2.jpg in Resources */,
 				FD685B011AE0E080001DEA7D /* LaunchScreen.xib in Resources */,
 				FD685AFE1AE0E080001DEA7D /* Images.xcassets in Resources */,
 			);

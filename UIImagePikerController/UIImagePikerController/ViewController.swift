@@ -19,7 +19,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
     var beginImage: CIImage!
     var orientation: UIImageOrientation = .Up
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+    /*func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
         dismissViewControllerAnimated(true, completion: nil)
         
         let mediaType = info[UIImagePickerControllerMediaType] as NSString
@@ -31,6 +31,41 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
                 UIImageWriteToSavedPhotosAlbum(image, self, "image: didFinishSavingWithError: contextInfo", nil)
             }
         }
+    }*/
+    @IBOutlet var amountSlider: UISlider!
+    
+    
+//    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+//        let mediaType = info[UIImagePickerControllerMediaType] as NSString
+//        
+//        if (mediaType.isEqualToString(kUTTypeImage as NSString)){
+//            
+//            let image = info[UIImagePickerControllerOriginalImage] as UIImage
+//            imageView.image = image
+//            
+//            if(newMedia == true){
+//                UIImageWriteToSavedPhotosAlbum(image, self, "image: didFinishSavingWithError: contexInfo:", nil)
+//            }
+//        }
+//    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: NSDictionary!) {
+        
+//        self.dismissViewControllerAnimated(true, completion: nil)
+//        
+//        let gotImage = info[UIImagePickerControllerOriginalImage] as UIImage
+//        
+//        beginImage = CIImage(image:gotImage)
+//        orientation = gotImage.imageOrientation
+//        filter.setValue(beginImage, forKey: kCIInputImageKey)
+//        //self.mountSliderValueChanged(amountSlider)
+//        self.mountSliderValueChanged(amountSlider)
+        self.dismissViewControllerAnimated(true, completion: nil);
+        let gotImage = info[UIImagePickerControllerOriginalImage] as UIImage
+        beginImage = CIImage(image: gotImage)
+        orientation = gotImage.imageOrientation
+        filter.setValue(beginImage, forKey: kCIInputImageKey)
+        self.mountSliderValueChanged(amountSlider)
     }
     
     @IBAction func mountSliderValueChanged(sender: UISlider) {
@@ -40,13 +75,18 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
         let newImage = UIImage(CGImage: cgimg, scale: 1, orientation: orientation)
         self.imageView.image = newImage
     }
+    
     @IBAction func library(sender: AnyObject) {
-        imagePicker.allowsEditing = false
-        imagePicker.sourceType = .PhotoLibrary
-        imagePicker.mediaTypes = [kUTTypeImage as NSString]
-        presentViewController(imagePicker, animated: true, completion: nil)
-        
-        newMedia = false
+//        imagePicker.allowsEditing = false
+//        imagePicker.sourceType = .PhotoLibrary
+//        imagePicker.mediaTypes = [kUTTypeImage as NSString]
+//        presentViewController(imagePicker, animated: true, completion: nil)
+//        
+//        newMedia = false
+       imagePicker = UIImagePickerController()
+       imagePicker.delegate = self
+        self.presentViewController(imagePicker, animated: true, completion: nil)
+
     }
     @IBAction func takePhoto(sender: AnyObject) {
         imagePicker.allowsEditing = false
@@ -116,6 +156,19 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
         // Do any additional setup after loading the view, typically from a nib.
         imagePicker = UIImagePickerController()
         imagePicker.delegate = self
+        
+        //1
+        let fileURL = NSBundle.mainBundle().URLForResource("apples2", withExtension: "jpg")
+        //2
+        beginImage = CIImage(contentsOfURL: fileURL)
+        //3
+        filter = CIFilter(name: "CISepiaTone")
+        filter.setValue(beginImage, forKey: kCIInputImageKey)
+        filter.setValue(0.5, forKey: kCIInputIntensityKey)
+        let outputImage = filter.outputImage
+        //1
+        context = CIContext(options: nil)
+        let cgimg = context.createCGImage(outputImage, fromRect: outputImage.extent())
     }
 
     override func didReceiveMemoryWarning() {
